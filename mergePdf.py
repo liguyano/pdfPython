@@ -1,3 +1,4 @@
+import os
 import tkinter as tk
 from tkinter import filedialog
 import PyPDF2
@@ -19,6 +20,7 @@ def select_files():
     return file_paths
 
 if __name__ == "__main__":
+
     input_pdfs = select_files()
     
     if not input_pdfs:
