@@ -20,4 +20,5 @@ def select_files():
     return file_paths
 input_file=select_files()
 print("filename:{}".format(str(input_file)))
-pdf_image(r"D:/OneDrive - jxstnu.edu.cn/筆記/計算機/考研c语言/c语言题库/201湘潭大学c语言程序设计.pdf", r"images/", 10, 10, 0)
+pdf_image(input_file[0]
+          , r"images/", 10, 10, 0)
